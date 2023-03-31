@@ -60,6 +60,17 @@ header nav .home-color {
 #beautiful .box h4 {
   font-size: 20px;
 }
+@media screen and (max-width: 768px) {
+  #beautiful .box h1 {
+    font-size: 53px;
+  }
+  #beautiful .box h5 {
+    font-size: 15px;
+  }
+  #beautiful .box .imgbox {
+    margin: 20px 0 0 0;
+  }
+}
 
 #home {
   background-color: #f1f8f9;
@@ -86,6 +97,28 @@ header nav .home-color {
 #home .imgbox {
   width: 520px;
 }
+@media screen and (max-width: 992px) {
+  #home .imgbox {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #home .imgbox {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #home .textbox h1 {
+    font-size: 40px;
+    width: 300px;
+  }
+  #home .textbox h5 {
+    font-size: 15px;
+  }
+  #home .imgbox {
+    width: 250px;
+  }
+}
 
 #works h1 {
   font-weight: 700;
@@ -109,6 +142,23 @@ header nav .home-color {
   color: #676f8b;
   line-height: 1.3;
 }
+@media screen and (max-width: 992px) {
+  #works .box .imgbox {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #works .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  #works h1 {
+    font-size: 50px;
+  }
+}
 
 #browse .textbox {
   width: 500px;
@@ -127,8 +177,7 @@ header nav .home-color {
 }
 #browse .textbox h4 span {
   color: #3cc1d8;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 #browse .btn {
   font-size: 18px;
@@ -184,6 +233,14 @@ header nav .home-color {
   padding: 17px 53px;
   margin-top: 50px;
 }
+@media screen and (max-width: 992px) {
+  #browse .textbox .add .btn {
+    padding: 5px 15px;
+  }
+  #browse .imgbox {
+    width: 150px;
+  }
+}
 
 #order .imgbox {
   width: 600px;
@@ -205,6 +262,23 @@ header nav .home-color {
   background-color: #38b6c1;
   padding: 13px 34px;
   border-radius: 5px;
+}
+@media screen and (max-width: 992px) {
+  #order .imgbox {
+    width: auto;
+  }
+  #order .textbox h1 {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #order .textbox h1 {
+    font-size: 35px;
+  }
+  #order .textbox h5 {
+    font-size: 18px;
+    margin: 25px 0 50px 0;
+  }
 }
 
 #callour {
@@ -230,6 +304,29 @@ header nav .home-color {
 #callour .imgbox {
   width: 520px;
 }
+@media screen and (max-width: 992px) {
+  #callour .textbox h1 {
+    font-size: 58px;
+  }
+  #callour .imgbox {
+    width: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  #callour .textbox h1 {
+    font-size: 35px;
+  }
+  #callour .textbox h5 {
+    font-size: 15px;
+  }
+  #callour .textbox .btn {
+    font-size: 15px;
+    padding: 15px 24px;
+  }
+  #callour .imgbox {
+    width: auto;
+  }
+}
 
 #support .textbox h1 {
   font-size: 60px;
@@ -250,4 +347,18 @@ header nav .home-color {
 }
 #support .bgc {
   background-color: #35b6c1;
+}
+@media screen and (max-width: 992px) {
+  #support .textbox h1 {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #support .textbox h1 {
+    font-size: 30px;
+  }
+  #support .textbox .btn {
+    font-size: 20px;
+    margin: 30px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
